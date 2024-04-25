@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{51C8FF5A-3B1F-4545-A174-D979E13F3C30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpgAPITest", "tests\rpgAPITest\rpgAPITest.csproj", "{467520AA-A176-4E09-A84A-C13F5AEA89F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7BA01A34-E555-4082-8B9C-CCE8D4D41517}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rpgAPI", "src\rpgAPI\rpgAPI.csproj", "{A889EDD3-B4A8-4AC2-B03D-2886E92EBC6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{467520AA-A176-4E09-A84A-C13F5AEA89F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467520AA-A176-4E09-A84A-C13F5AEA89F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467520AA-A176-4E09-A84A-C13F5AEA89F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467520AA-A176-4E09-A84A-C13F5AEA89F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A889EDD3-B4A8-4AC2-B03D-2886E92EBC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A889EDD3-B4A8-4AC2-B03D-2886E92EBC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A889EDD3-B4A8-4AC2-B03D-2886E92EBC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A889EDD3-B4A8-4AC2-B03D-2886E92EBC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{467520AA-A176-4E09-A84A-C13F5AEA89F6} = {51C8FF5A-3B1F-4545-A174-D979E13F3C30}
+		{A889EDD3-B4A8-4AC2-B03D-2886E92EBC6D} = {7BA01A34-E555-4082-8B9C-CCE8D4D41517}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3069C406-7EA4-4A16-A857-70F760B2F93E}
+	EndGlobalSection
+EndGlobal
